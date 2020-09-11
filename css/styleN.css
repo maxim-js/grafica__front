@@ -1,0 +1,74 @@
+#popup-auth ul li {
+    display: inline-block;
+    padding-right: 16px;
+    border: 1px solid transparent;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+#popup-auth ul li:before, #popup-auth ul li:after {
+    display: none;
+}
+#popup-auth ul li.active {
+    border: 1px solid #d8d7d3;
+    border-bottom: 1px solid #fff;
+}
+#popup-auth ul {
+   border-bottom: 1px solid #d8d7d3; 
+}
+
+.register-block ul li {
+    display: inline-block;
+    padding-right: 16px;
+    border: 1px solid transparent;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+.register-block ul li:before, .register-block ul li:after {
+    display: none;
+}
+.register-block ul li.active {
+    border: 1px solid #d8d7d3;
+    border-bottom: 1px solid #fff;
+}
+.register-block ul {
+   border-bottom: 1px solid #d8d7d3; 
+}
+.register-block form {
+    margin: 0;
+}
+.register-block form input[type="submit"]{
+    width: 100%;
+}
+.error {
+    background: red;
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    padding: 3px;
+}
+
+.messages-wrap {
+    height: 550px;
+    overflow: auto;
+}
+.user-message, .admin-message {
+    margin-bottom: 15px;
+}
+.mess-file {
+    margin-left: 45px;
+}
+.ddate {
+    cursor: pointer;
+}
+
+#popup-add .btn{
+    height: 40px;
+    line-height: 40px;
+    border-radius: unset;
+}
